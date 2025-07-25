@@ -1,0 +1,131 @@
+/* SplitChores Brand Colors - Matching App Exactly */
+:root {
+  --splitchores-primary: #5271FF;
+  --splitchores-primary-dark: #4461E6;
+  --splitchores-primary-light: #6B82FF;
+  --splitchores-secondary: #F8FAFF;
+  --splitchores-accent: #FF6B6B;
+  --splitchores-success: #10B981;
+  --splitchores-warning: #F59E0B;
+  --splitchores-danger: #EF4444;
+  --splitchores-gray-50: #F9FAFB;
+  --splitchores-gray-100: #F3F4F6;
+  --splitchores-gray-200: #E5E7EB;
+  --splitchores-gray-300: #D1D5DB;
+  --splitchores-gray-400: #9CA3AF;
+  --splitchores-gray-500: #6B7280;
+  --splitchores-gray-600: #4B5563;
+  --splitchores-gray-700: #374151;
+  --splitchores-gray-800: #1F2937;
+  --splitchores-gray-900: #111827;
+}
+
+/* SplitChores Typography - Matching App Font Weights */
+.splitchores-heading {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.splitchores-subheading {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.splitchores-body {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.splitchores-caption {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* SplitChores Card Shadows - Matching App Depth */
+.splitchores-card {
+  box-shadow: 0 1px 3px 0 rgba(82, 113, 255, 0.1), 0 1px 2px 0 rgba(82, 113, 255, 0.06);
+  border-radius: 16px;
+  border: 1px solid rgba(82, 113, 255, 0.08);
+}
+
+.splitchores-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.splitchores-card-hover:hover {
+  box-shadow: 0 10px 25px -3px rgba(82, 113, 255, 0.15), 0 4px 6px -2px rgba(82, 113, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* SplitChores Buttons - Matching App Style */
+.splitchores-btn-primary {
+  background: linear-gradient(135deg, #5271FF 0%, #4461E6 100%);
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(82, 113, 255, 0.3);
+}
+
+.splitchores-btn-primary:hover {
+  background: linear-gradient(135deg, #4461E6 0%, #3B52D9 100%);
+  box-shadow: 0 6px 16px rgba(82, 113, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.splitchores-btn-secondary {
+  background: white;
+  border: 2px solid rgba(82, 113, 255, 0.2);
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.splitchores-btn-secondary:hover {
+  border-color: var(--splitchores-primary);
+  background: rgba(82, 113, 255, 0.05);
+}
+
+/* Priority Colors - Matching App Exactly */
+.priority-high { color: #E81123; }
+.priority-medium { color: #FF8C00; }
+.priority-low { color: #0078D4; }
+.priority-none { color: #6B7280; }
+
+/* Haptic Feedback Visual Cues */
+.haptic-pulse {
+  animation: haptic-pulse 0.6s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+@keyframes haptic-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* Stress Relief Gradient */
+.stress-relief-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Group Avatar Styles - Matching App */
+.group-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.group-avatar-blue { background: linear-gradient(135deg, #5271FF, #4461E6); }
+.group-avatar-green { background: linear-gradient(135deg, #10B981, #059669); }
+.group-avatar-purple { background: linear-gradient(135deg, #8B5CF6, #7C3AED); }
+.group-avatar-orange { background: linear-gradient(135deg, #F59E0B, #D97706); }
+.group-avatar-pink { background: linear-gradient(135deg, #EC4899, #DB2777); }
