@@ -23,19 +23,15 @@
 - **Priority Cycling** - Visual feedback without complex menus
 - **Group Role Management** - Admin/member permissions with email invites
 
-## 🚀 Quick Start
+## 🚀 Development
 
 ### Prerequisites
 - Node.js 18+ 
 - npm or yarn
 
-### Development
+### Local Development
 
 ```bash
-# Clone the repository
-git clone https://github.com/VastavOne/splitchores-landing.git
-cd splitchores-landing
-
 # Install dependencies
 npm install
 
@@ -44,15 +40,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the landing page.
-
-### Build for Production
-
-```bash
-# Build static export for GitHub Pages
-npm run export
-
-# Output will be in the 'out' directory
-```
 
 ## 📁 Project Structure
 
@@ -116,17 +103,9 @@ SplitChores is a collaborative task management app designed specifically for hou
 - **Key Features**: Real-time sync, recurring tasks, haptic feedback, stress relief
 - **Platforms**: iOS & Android (coming soon)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is proprietary and confidential. All rights reserved.
 
 ## 📞 Contact
 
